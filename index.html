@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      .slider img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .slider img {
+          max-height: 300px;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .slider img {
+          max-height: 200px;
+        }
+      }
+    </style>
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
